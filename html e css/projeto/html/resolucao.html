@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tamanhos de Imagens</title>
+</head>
+
+<body>
+    <h1>Imagens</h1>
+    <p>Esse é um recurso para controlar o tamanho da imagem de acordo com o dispositivo que o acessa</p>
+    
+    <picture>
+        <source media="(max-width: 350)" srcset="../img/berserk-thumb.png" type="image/png">
+        <source media="(max-width: 750)" srcset="../img/berserk-p.png" type="image/png">
+        <img src="../img/berserk-m.png" alt="Gutts Berserk">
+    </picture>
+
+    <p>
+        <small>
+            Este homem é <strong><i>Roronoa Zoro <del>O caçador de piratas</del></i></strong> um pirata do bando chapéu
+            de
+            palha, um dos <a href="https://onepiece.fandom.com/pt/wiki/Pior_Gera%C3%A7%C3%A3o">11 super novas</a>
+            procurado pela marinha, sua ultima aparição foi no país de Wano
+            <br>Se você o encontrar, denuncie para a Marinha!!!
+        </small>
+    </p>
+
+    <p>
+        O texto a cima foi feito com é um paragrafo, nos paragrafos usamos a tag &lt; p &gt;
+
+    </p>
+
+    <p><small>Sim eu fiz os calculos e deu &lt; 42 &gt; </small></p>
+
+</body>
+</html>
