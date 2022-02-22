@@ -58,11 +58,11 @@ hr {
 }
 
 
-p.texto {
+p {
     text-align: justify;
     padding-bottom: 20px;
 }
 
-p.exemplo {
-    font-family: var(--font-texto);
+ol, ul {
+    list-style-position: inside;
 }

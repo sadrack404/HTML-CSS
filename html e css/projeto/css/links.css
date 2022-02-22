@@ -13,56 +13,37 @@
     --font-monospace:'Courier New', Courier, monospace;
     --font-texto:'JetBrains Mono', monospace;;
 }
-
 * {
     margin: 0px;
     padding: 0px;
 }
 
 body {
-    height: 100vh;
     font-family: var(--font-texto);
-  
     background-image: var(--wallpaperDegrade);
-    background-repeat: no-repeat;
-    background-size: cover;
-    
+    height: 100vh;
 }
 
 main {
     background-color: var(--corFundo);
-
-    max-width: 800px;
     
+    max-width: 800px;
     padding: 10px 30px;
     border-radius: 8px;
     box-shadow: 2px 5px 5px #d1b1dd73;
-
+    
     position: absolute;
     top: 50%;
     left: 50%;
-
+    
     transform: translate(-50%, -50%);
-
+  
 }
 
-h1 {
+
+h1 { 
     font-family: var(--font-monospace);
     color: #8474A1;
     text-shadow: 2px 5px 5px #ccabd8;
     margin: 20px 0px;
-}
-
-hr {
-    margin: 30px 0px;
-}
-
-
-p.texto {
-    text-align: justify;
-    padding-bottom: 20px;
-}
-
-p.exemplo {
-    font-family: var(--font-texto);
 }
