@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        table {
+            border: 1px solid black;
+            border-collapse: collapse;
+            margin: auto;
+        }
+
+        td {
+
+            border: 1px solid black;
+        }
+
+        tbody>tr:nth-child(2n) {
+            background-color: lightgray;
+        }
+
+        th.cabeçalho {
+            background-color: rgba(128, 128, 128, 0.199);
+            text-align: center;
+        }
+
+        td#Mu {
+            color: green;
+        }
+
+        td#maxPop {
+            text-align: right;
+        }
+    </style>
+</head>
+
+<body>
+    <!--
+        ANATOMIA PARA TABELAS GRANDES
+        TABLE
+            THEAD
+                TR, TD, TH
+            TBODY
+                TR, TD, TH
+            TFOOT
+                TR, TD, TH
+
+    -->
+
+    <Table>
+        <caption>Tabela de Estados do Brasil</caption>
+        <thead>
+            <tr>
+                <th scope="col" class="cabeçalho">Posição
+                <th scope="col" class="cabeçalho">Unidade Federativa
+                <th scope="col" class="cabeçalho">População
+                <th scope="col" class="cabeçalho">Mudança
+                <th scope="col" class="cabeçalho">% da Pop. Total
+                <th scope="col" class="cabeçalho">País Comparável
+        </thead>
+        <tbody>
+            <tr id="celulas">
+                <td id="PO">1</td>
+                <td id="UF"> São Paulo</td>
+                <td id="POP">46 649 132</td>
+                <td id="Mu">+13.05%</td>
+                <td id="PopToal">21,9%</td>
+                <td id="PaisComp">Espanha (46 439 864)</td>
+            </tr>
+            <tr id="celulas">
+                <td id="PO">2</td>
+                <td id="UF">Minas Gerais</td>
+                <td id="POP">21 411 923</td>
+                <td id="Mu">+9.26%</td>
+                <td id="PopToal">10,1%</td>
+                <td id="PaisComp">Sri Lanka (20 675 000)</td>
+            <tr id="celulas">
+                <td id="PO">1</td>
+                <td id="UF"> São Paulo</td>
+                <td id="POP">46 649 132</td>
+                <td id="Mu">+13.05%</td>
+                <td id="PopToal">21,9%</td>
+                <td id="PaisComp">Espanha (46 439 864)</td>
+            </tr>
+            <tr id="celulas">
+                <td id="PO">2</td>
+                <td id="UF">Minas Gerais</td>
+                <td id="POP">21 411 923</td>
+                <td id="Mu">+9.26%</td>
+                <td id="PopToal">10,1%</td>
+                <td id="PaisComp">Sri Lanka (20 675 000)</td>
+            <tr id="celulas">
+                <td id="PO">1</td>
+                <td id="UF"> São Paulo</td>
+                <td id="POP">46 649 132</td>
+                <td id="Mu">+13.05%</td>
+                <td id="PopToal">21,9%</td>
+                <td id="PaisComp">Espanha (46 439 864)</td>
+            </tr>
+            <tr id="celulas">
+                <td id="PO">2</td>
+                <td id="UF">Minas Gerais</td>
+                <td id="POP">21 411 923</td>
+                <td id="Mu">+9.26%</td>
+                <td id="PopToal">10,1%</td>
+                <td id="PaisComp">Sri Lanka (20 675 000)</td>
+            <tr id="celulas">
+                <td id="PO">1</td>
+                <td id="UF"> São Paulo</td>
+                <td id="POP">46 649 132</td>
+                <td id="Mu">+13.05%</td>
+                <td id="PopToal">21,9%</td>
+                <td id="PaisComp">Espanha (46 439 864)</td>
+            </tr>
+            <tr id="celulas">
+                <td id="PO">2</td>
+                <td id="UF">Minas Gerais</td>
+                <td id="POP">21 411 923</td>
+                <td id="Mu">+9.26%</td>
+                <td id="PopToal">10,1%</td>
+                <td id="PaisComp">Sri Lanka (20 675 000)</td>
+            <tr id="celulas">
+                <td id="PO">1</td>
+                <td id="UF"> São Paulo</td>
+                <td id="POP">46 649 132</td>
+                <td id="Mu">+13.05%</td>
+                <td id="PopToal">21,9%</td>
+                <td id="PaisComp">Espanha (46 439 864)</td>
+            </tr>
+            <tr id="celulas">
+                <td id="PO">2</td>
+                <td id="UF">Minas Gerais</td>
+                <td id="POP">21 411 923</td>
+                <td id="Mu">+9.26%</td>
+                <td id="PopToal">10,1%</td>
+                <td id="PaisComp">Sri Lanka (20 675 000)</td>
+            <tr id="celulas">
+                <td id="PO">1</td>
+                <td id="UF"> São Paulo</td>
+                <td id="POP">46 649 132</td>
+                <td id="Mu">+13.05%</td>
+                <td id="PopToal">21,9%</td>
+                <td id="PaisComp">Espanha (46 439 864)</td>
+            </tr>
+            <tr id="celulas">
+                <td id="PO">2</td>
+                <td id="UF">Minas Gerais</td>
+                <td id="POP">21 411 923</td>
+                <td id="Mu">+9.26%</td>
+                <td id="PopToal">10,1%</td>
+                <td id="PaisComp">Sri Lanka (20 675 000)</td>
+            <tr id="celulas">
+                <td id="PO">1</td>
+                <td id="UF"> São Paulo</td>
+                <td id="POP">46 649 132</td>
+                <td id="Mu">+13.05%</td>
+                <td id="PopToal">21,9%</td>
+                <td id="PaisComp">Espanha (46 439 864)</td>
+            </tr>
+            <tr id="celulas">
+                <td id="PO">2</td>
+                <td id="UF">Minas Gerais</td>
+                <td id="POP">21 411 923</td>
+                <td id="Mu">+9.26%</td>
+                <td id="PopToal">10,1%</td>
+                <td id="PaisComp">Sri Lanka (20 675 000)</td>
+            <tr id="celulas">
+                <td id="PO">1</td>
+                <td id="UF"> São Paulo</td>
+                <td id="POP">46 649 132</td>
+                <td id="Mu">+13.05%</td>
+                <td id="PopToal">21,9%</td>
+                <td id="PaisComp">Espanha (46 439 864)</td>
+            </tr>
+            <tr id="celulas">
+                <td id="PO">2</td>
+                <td id="UF">Minas Gerais</td>
+                <td id="POP">21 411 923</td>
+                <td id="Mu">+9.26%</td>
+                <td id="PopToal">10,1%</td>
+                <td id="PaisComp">Sri Lanka (20 675 000)</td>
+            <tr id="celulas">
+                <td id="PO">1</td>
+                <td id="UF"> São Paulo</td>
+                <td id="POP">46 649 132</td>
+                <td id="Mu">+13.05%</td>
+                <td id="PopToal">21,9%</td>
+                <td id="PaisComp">Espanha (46 439 864)</td>
+            </tr>
+            <tr id="celulas">
+                <td id="PO">2</td>
+                <td id="UF">Minas Gerais</td>
+                <td id="POP">21 411 923</td>
+                <td id="Mu">+9.26%</td>
+                <td id="PopToal">10,1%</td>
+                <td id="PaisComp">Sri Lanka (20 675 000)</td>
+            <tr id="celulas">
+                <td id="PO">1</td>
+                <td id="UF"> São Paulo</td>
+                <td id="POP">46 649 132</td>
+                <td id="Mu">+13.05%</td>
+                <td id="PopToal">21,9%</td>
+                <td id="PaisComp">Espanha (46 439 864)</td>
+            </tr>
+            <tr id="celulas">
+                <td id="PO">2</td>
+                <td id="UF">Minas Gerais</td>
+                <td id="POP">21 411 923</td>
+                <td id="Mu">+9.26%</td>
+                <td id="PopToal">10,1%</td>
+                <td id="PaisComp">Sri Lanka (20 675 000)</td>
+            <tr id="celulas">
+                <td id="PO">1</td>
+                <td id="UF"> São Paulo</td>
+                <td id="POP">46 649 132</td>
+                <td id="Mu">+13.05%</td>
+                <td id="PopToal">21,9%</td>
+                <td id="PaisComp">Espanha (46 439 864)</td>
+            </tr>
+            <tr id="celulas">
+                <td id="PO">2</td>
+                <td id="UF">Minas Gerais</td>
+                <td id="POP">21 411 923</td>
+                <td id="Mu">+9.26%</td>
+                <td id="PopToal">10,1%</td>
+                <td id="PaisComp">Sri Lanka (20 675 000)</td>
+            <tr id="celulas">
+                <td id="PO">1</td>
+                <td id="UF"> São Paulo</td>
+                <td id="POP">46 649 132</td>
+                <td id="Mu">+13.05%</td>
+                <td id="PopToal">21,9%</td>
+                <td id="PaisComp">Espanha (46 439 864)</td>
+            </tr>
+            <tr id="celulas">
+                <td id="PO">2</td>
+                <td id="UF">Minas Gerais</td>
+                <td id="POP">21 411 923</td>
+                <td id="Mu">+9.26%</td>
+                <td id="PopToal">10,1%</td>
+                <td id="PaisComp">Sri Lanka (20 675 000)</td>
+            <tr id="celulas">
+                <td id="PO">1</td>
+                <td id="UF"> São Paulo</td>
+                <td id="POP">46 649 132</td>
+                <td id="Mu">+13.05%</td>
+                <td id="PopToal">21,9%</td>
+                <td id="PaisComp">Espanha (46 439 864)</td>
+            </tr>
+            <tr id="celulas">
+                <td id="PO">2</td>
+                <td id="UF">Minas Gerais</td>
+                <td id="POP">21 411 923</td>
+                <td id="Mu">+9.26%</td>
+                <td id="PopToal">10,1%</td>
+                <td id="PaisComp">Sri Lanka (20 675 000)</td>
+            <tr id="celulas">
+                <td id="PO">1</td>
+                <td id="UF"> São Paulo</td>
+                <td id="POP">46 649 132</td>
+                <td id="Mu">+13.05%</td>
+                <td id="PopToal">21,9%</td>
+                <td id="PaisComp">Espanha (46 439 864)</td>
+            </tr>
+            <tr id="celulas">
+                <td id="PO">2</td>
+                <td id="UF">Minas Gerais</td>
+                <td id="POP">21 411 923</td>
+                <td id="Mu">+9.26%</td>
+                <td id="PopToal">10,1%</td>
+                <td id="PaisComp">Sri Lanka (20 675 000)</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <th scope="row">Total de Habitantes</th>
+
+                <td colspan="5" id="maxPop"> 10000</td>
+            </tr>
+        </tfoot>
+    </Table>
+</body>
+
+</html>
